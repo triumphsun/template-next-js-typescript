@@ -46,3 +46,15 @@ npm install -D eslint-plugin-react eslint-plugin-react-hooks
 vim .eslintrc.json
 git add .eslintrc.json 
 ```
+
+## Prettier
+```bash
+npm install -D prettier
+npm install -D eslint-config-prettier
+
+vim .prettierrc.json
+git add .prettierrc.json
+
+vim .prettierignore
+git add .prettierignore
+```

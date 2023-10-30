@@ -1,0 +1,10 @@
+package.json
+package-lock.json
+yarn.lock
+dist
+public
+node_nodules/
+
+
+# next.js projects
+.next
