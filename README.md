@@ -1,4 +1,5 @@
 ## Next.js
+
 ```bash
 npx create-next-app@latest --typescript
 
@@ -11,6 +12,7 @@ npx create-next-app@latest --typescript
 ```
 
 ## Husky & Lint-staged
+
 ```bash
 npm install -D husky lint-staged
 
@@ -27,11 +29,12 @@ git add .lintstagerc.json
 ```
 
 ## ESLint
+
 ```bash
 npm init @eslint/config
-# It will automatically install the following modules at the devDependencies: 
-#        eslint-plugin-react@latest 
-#        @typescript-eslint/eslint-plugin@latest 
+# It will automatically install the following modules at the devDependencies:
+#        eslint-plugin-react@latest
+#        @typescript-eslint/eslint-plugin@latest
 #        @typescript-eslint/parser@latest
 #
 
@@ -44,10 +47,11 @@ npm install -D eslint-plugin-unused-imports
 npm install -D eslint-plugin-react eslint-plugin-react-hooks
 
 vim .eslintrc.json
-git add .eslintrc.json 
+git add .eslintrc.json
 ```
 
 ## Prettier
+
 ```bash
 npm install -D prettier
 npm install -D eslint-config-prettier
@@ -57,4 +61,14 @@ git add .prettierrc.json
 
 vim .prettierignore
 git add .prettierignore
+```
+
+## Jest and Typescript support
+
+```bash
+npm install -D typescript
+npm install -D jest @types/jest ts-jest
+
+vim jest.config.js
+git add jest.config.sj
 ```
