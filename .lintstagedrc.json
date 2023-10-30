@@ -1,4 +1,6 @@
 {
-  "*.{ts,tsx}": [],
+  "*.{ts,tsx}": [
+    "eslint --fix"
+  ],
   "*.{css,json,md}": []
 }
